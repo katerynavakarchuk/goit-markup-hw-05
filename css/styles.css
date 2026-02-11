@@ -686,8 +686,10 @@ border-radius: 2px;
 }
 
 .modal-check-label {
+  display: flex;
+  align-items: center;
   font-size: 12px;
-  line-height: 1.33;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
 }
@@ -707,12 +709,18 @@ border-radius: 2px;
   margin-right: 8px;
   flex-shrink: 0;
 }
-
+.custom-checkbox svg {
+  opacity: 0;
+  fill: #f4f4fd;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .modal-check-input:checked + .modal-check-label .custom-checkbox {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
-}
+  }
+.modal-check-input:checked+.modal-check-label .custom-checkbox svg {
+  opacity: 1;}
 .modal-field-comment {
   margin-bottom: 16px;
 }
