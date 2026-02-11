@@ -417,7 +417,6 @@ border-radius: 2px;
   max-width: 264px;
 }
 .footer-text {
-  margin-top: 16px;
   max-width: 264px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -465,7 +464,7 @@ border-radius: 2px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-subscribe {
-  margin-left: 0;
+  margin-left: auto;
 }
 
 .subscribe-form {
@@ -501,6 +500,7 @@ border-radius: 2px;
   align-items: center;
   min-width: 165px;
   height: 40px;
+  padding: 8px 24px;
   background-color: #4d5ae5;
   border-radius: 4px;
   border: none;
@@ -689,7 +689,7 @@ border-radius: 2px;
   display: flex;
   align-items: center;
   font-size: 12px;
-  line-height: 1.17;
+  line-height: 1.33;
   letter-spacing: 0.04em;
   color: #8e8f99;
 }
